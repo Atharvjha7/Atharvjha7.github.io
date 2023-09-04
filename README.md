@@ -1,2 +1,2 @@
 # Portfolio-Website
-This is a website I am making for me!
+This is a website I am making to have a portfolio for myself. 
