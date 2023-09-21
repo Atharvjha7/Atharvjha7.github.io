@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const typingText = document.getElementById("typing-text");
     const cursor = document.getElementById("cursor");
     const originalText = "Hi, I'm Atharv.";
-    const newText = "Welcome to my website.";
+    const newText = "Welcome to my website!";
 
     function typeOut(text, callback) {
         let charIndex = 0;
