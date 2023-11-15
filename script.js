@@ -84,35 +84,4 @@ document.addEventListener("DOMContentLoaded", function () {
         easing: "ease-out"
     });
 });
-// Add this to your existing JavaScript or create a new file (script.js)
-document.addEventListener("DOMContentLoaded", function () {
-    const terminalOutput = document.getElementById("terminal-output");
 
-    // Your information or commands
-    const commands = [
-        "Welcome to my portfolio!",
-        "I'm a web developer passionate about...",
-        "Skills: HTML, CSS, JavaScript, etc.",
-        "Experience: Company XYZ, Freelance Projects",
-        "Education: Bachelor's in Computer Science",
-        "Contact me at: your.email@example.com",
-        // Add more information or commands as needed
-    ];
-
-    // Display each command with a delay
-    function displayCommands() {
-        let delay = 1000; // Adjust the delay between commands (in milliseconds)
-
-        commands.forEach((command) => {
-            setTimeout(() => {
-                terminalOutput.textContent += command + "\n";
-                terminalOutput.scrollTop = terminalOutput.scrollHeight; // Auto-scroll to the bottom
-            }, delay);
-
-            delay += 1000; // Increase the delay for the next command
-        });
-    }
-
-    // Start displaying commands when the page loads
-    displayCommands();
-});
