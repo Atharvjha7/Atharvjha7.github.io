@@ -181,15 +181,5 @@ input:checked + .slider:before {
 .section.active {
     display: block;
 }
-/* Add this to your existing CSS or create a new file (styles.css) */
-.terminal {
-    background-color: black;
-    color: white;
-    font-family: "Courier New", monospace;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    overflow: auto;
-    max-height: 300px; /* Set a maximum height if you want scrolling */
-}
+
 
